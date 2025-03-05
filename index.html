@@ -11,12 +11,12 @@
 </body>
   <main>
     <div class="main">
-      <h1 class="title">Bookworm Newsletter</h1>
+      <h1 id="page-title">Bookworm Newsletter</h1>
       <h2 class="author">Frieda McFadden Books</h2>
-      <div class="author">
-        <figure>
+      <div class="author-info">
+        <figure class="author-photo">
           <img src="images/author.jpg" alt="Portrait picture of Frieda McFadden">
-          <figcaption>'Frieda McFadden</figcaption>
+          <figcaption>Frieda McFadden</figcaption>
         </figure>
       </div>
       <p>
@@ -38,15 +38,15 @@
       </figure>
     </div>
     <div class="form">
-      <form method="get" action="#null">
-        <h3>Subscribe To The Newsletter</h1>
+      <form method="get" action="#null" id="newsletter-form">
+        <h3>Subscribe To The Newsletter</h3>
         <ol>
           <li id="input-email">
             <label for="email">Email</label>
             <input type="email" name="email" id="email" pattern="^.+@.+$">
           </li>
           <li id="input-submit">
-            <input type="type" name="submit" id="submit" value="Subscribe for Free">
+            <input type="submit" name="submit" id="submit" value="Subscribe for Free">
           </li>
         </ol>
       </form>
