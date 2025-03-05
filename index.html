@@ -8,8 +8,7 @@
   <link rel="stylesheet" media="screen" href="css/screen.css">
 </head>
 <body>
-  <main id="content">
-    <form method="get" action="#null">
+
       <h1 class="title">Bookworm Newsletter</h1>
       <h2 class="author">Frieda McFadden Books</h2>
       <p>
@@ -29,17 +28,21 @@
           <figcaption>'The Inmate'</figcaption>
         </figure>
       </div>
-      <ol>
-        <li id="input-email">
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" pattern="^.+@.+$">
-        </li>
-        <li id="input-submit">
-        <input type="type" name="submit" id="submit" value="Subscribe for Free">
-        </li>
-      </ol>
+      <div class="form">
+        <form method="get" action="#null">
 
-    </form>
+          <h3>Subscribe To The Newsletter</h1>
+          <ol>
+            <li id="input-email">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" pattern="^.+@.+$">
+            </li>
+            <li id="input-submit">
+              <input type="type" name="submit" id="submit" value="Subscribe for Free">
+            </li>
+          </ol>
+        </form>
+      </div>
   </main>
 </body>
 </html>
