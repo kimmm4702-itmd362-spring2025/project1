@@ -2,9 +2,14 @@ body{
 	background-color: #C5E8CF;
 }
 .books{
-	border-radius: 20px;
-	padding: 10px;
-	margin: 15px;
-	height: 200px;
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: center;
+}
+figure{
+	margin: 0;
 	width: 100px;
+	height: 100px;
+	
 }
