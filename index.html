@@ -11,8 +11,8 @@
 </body>
   <main>
     <div class="main">
-      <h1 class="page-title">Bookworm Newsletter</h1>
-      <h2 class="author">Today's Topic: Psychological Thriller</h2>
+      <h1 class="page-title">BOOK CLUB</h1>
+      <h2 class="topic">Today's Topic: Psychological Thriller</h2>
       <div class="author-info">
         <figure class="author-photo">
           <img src="images/author.jpg" alt="Portrait picture of Frieda McFadden">
@@ -20,7 +20,7 @@
         </figure>
       </div>
       <p>
-        "Freida McFadden is the pen name of a bestselling American author and practicing physician who specializes in brain injuries. McFadden has written multiple psychological thrillers and medical humor novels. McFadden's background as a brain injury specialist informs their writing."
+        "Freida McFadden is a bestselling American author and physician specializing in brain injuries. She writes psychological thrillers and medical humor, drawing from her expertise in brain injury treatment."
       </p>
     </div>
     <div class="books">
@@ -41,13 +41,29 @@
       <form method="get" action="#null" id="newsletter-form">
         <h3>Subscribe To The Newsletter</h3>
         <ol>
+          <li id="input-name">
+            <label for="fname">FirstName</label>
+            <input type="text" name="firstname" id="fname" placeholder="Your first name..">
+
+            <label for="lname">LastName</label>
+            <input type="text" name="lastname" id="lname" placeholder="Your last name..">
+          </li>
           <li id="input-email">
             <label for="email">Enter your email:</label>
             <input type="email" name="email" id="email" pattern="^.+@.+$" placeholder="email@example.com">
           </li>
+          <li id="select-book">
+            <label for="book">Book</label>
+            <select id="book" name="book">
+              <option value="the housemaid">The Housemaid</option>
+              <option value="never lie">Never Lie</option>
+              <option value="the inamte">The Inmate</option>
+            </select>
+          </li>
           <li id="input-submit">
             <input type="submit" name="submit" id="submit" value="Subscribe for Free">
           </li>
+
         </ol>
       </form>
     </div>
