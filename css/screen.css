@@ -1,12 +1,27 @@
-#page-title{
-	justify-content: center;
-}
 .main{
-	display: flex;
-	justify-content: center;
-}
-body{
+	text-align: center;
 	background-color: #C5E8CF;
+}
+.page-title{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.author{
+	margin-bottom: 10px;
+}
+.author-info{
+	text-align: center;
+}
+.author-photo img{
+	width: 100%;
+	border: 3px solid gray;
+}
+.author-photo figcaption{
+	margin-top: 10px;
+	color: darkred;
+}
+.main p{
+	color: darkblue;
 }
 .books{
 	display: flex;
