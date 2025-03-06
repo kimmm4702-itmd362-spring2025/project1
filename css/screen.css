@@ -1,6 +1,9 @@
 .main{
 	text-align: center;
 	background-color: #D7D6AA;
+	margin: 20px auto;
+	padding: 20px;
+	max-width: 600px;
 }
 body{
 	background-color: #A9A74F;
@@ -16,7 +19,12 @@ body{
 	font-size: 2rem;
 }
 .author-info{
+	justify-content: center;
+	margin-bottom: 15px;
+}
+.author-photo{
 	text-align: center;
+	max-width: 200px;
 }
 .author-photo img{
 	width: 100%;
@@ -27,6 +35,8 @@ body{
 .author-photo figcaption{
 	margin-top: 10px;
 	color: darkred;
+	font-size: 1.5rem;
+	font-weight: bold;
 }
 .main p{
 	color: darkblue;
@@ -49,7 +59,9 @@ body{
 }
 .book figcaption{
 	margin-top: 20px;
+	font-size: 1rem;
 	color: white;
+	font-weight: bold;
 }
 .form{
 	background-color:#88C385;
@@ -80,7 +92,7 @@ body{
 	color: white;
 	border-radius: 10px;
 	cursor: pointer;
-	width: 100%;
+	width: 200px;
 	padding: 10px;
 	border: none;
 }
