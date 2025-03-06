@@ -1,7 +1,9 @@
+#page-title{
+	justify-content: center;
+}
 .main{
 	display: flex;
 	justify-content: center;
-
 }
 body{
 	background-color: #C5E8CF;
@@ -10,13 +12,21 @@ body{
 	display: flex;
 	justify-content: center;
 	padding: 20px;
+
 }
 .books figure{
 	text-align: center;
-	border: 2px solid white;
-	padding: 10px;
+	margin: 20px;
+
 }
 .books img{
 	width: 100%;
 	height: auto;
+	border: 2px solid white;
+
+}
+.form{
+	justify-content: center;
+	border: 10px;
+	border-radius: 2px;
 }
