@@ -7,6 +7,7 @@
 }
 body{
 	background-color: #A9A74F;
+	font-family: "Cormorant Garamond", serif;
 }
 .page-title{
 	margin-top: 20px;
@@ -43,6 +44,7 @@ body{
 	color: darkblue;
 	font-size: 1rem;
 	padding: 5px;
+	line-height: 1.5em;
 }
 .books{
 	display: flex;
@@ -89,6 +91,11 @@ body{
 	color: red;
 	display: block;
 }
+#email{
+	width: 200px;
+	padding: 10px;
+	border-radius: 10px;
+}
 #submit{
 	background-color: #59981A;
 	color: white;
@@ -98,6 +105,6 @@ body{
 	padding: 10px;
 	border: none;
 }
-#submit: hover{
+#submit :hover{
 	background-color:#3D550C;
 }
