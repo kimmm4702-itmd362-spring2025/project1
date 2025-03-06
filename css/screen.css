@@ -7,13 +7,14 @@
 }
 body{
 	background-color: #A9A74F;
-	font-family: "Monomakh", system-ui;
+	font-family: "Merriweather", serif;
 }
 .page-title{
 	margin-top: 20px;
 	margin-bottom: 10px;
 	font-size: 2.5rem;
 	padding: 10px;
+	font-family: "Sour Gummy", sans-serif;
 
 }
 .topic{
@@ -77,6 +78,7 @@ body{
 	margin: 20px auto;
 	text-align: center;
 	max-width: 400px;
+	font-family: "DM Serif Text", serif;
 }
 .form h3{
 	margin-bottom: 15px;
