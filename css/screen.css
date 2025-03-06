@@ -19,7 +19,7 @@ body{
 }
 .topic{
 	margin-bottom: 15px;
-	font-size: 2.5rem;
+	font-size: 2.25em;
 	color: #7E6E13;
 }
 .author-info{
@@ -98,7 +98,7 @@ body{
 	font-size: 1.25rem;
 	margin-bottom: 10px;
 }
-#email{
+#email, #fname, #lname, #book{
 	width: 200px;
 	padding: 10px;
 	border-radius: 10px;
