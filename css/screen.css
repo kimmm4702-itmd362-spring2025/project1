@@ -14,7 +14,9 @@ body{
 	margin-bottom: 10px;
 	font-size: 2.5rem;
 	padding: 10px;
-	font-family: "Sour Gummy", sans-serif;
+	font-family: "Mogra", system-ui;
+  	font-weight: 400;
+  	font-style: normal;
 
 }
 .topic{
@@ -39,6 +41,7 @@ body{
 }
 .author-photo figcaption{
 	margin-top: 10px;
+	margin-bottom: 10px;
 	color: darkred;
 	font-size: 1.5rem;
 	font-weight: bold;
@@ -111,7 +114,7 @@ body{
 	color: white;
 	border-radius: 10px;
 	cursor: pointer;
-	width: 200px;
+	width: 250px;
 	padding: 10px;
 	border: none;
 	font-size: 1.125rem;
