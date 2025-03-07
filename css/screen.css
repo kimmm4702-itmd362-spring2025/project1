@@ -74,9 +74,9 @@ h1{
 }
 .books figcaption{
 	margin-top: 20px;
-	font-size: 1rem;
+	font-size: 1.1rem;
 	font-weight: bold;
-	font-color: #3D4127;
+	font-color: white;
 }
 .form{
 	background-color:#88C385;
@@ -90,7 +90,7 @@ h1{
 .form h3{
 	margin-bottom: 15px;
 	font-size: 1.5rem; /*24px*/
-	font-style: bold;
+	font-weight: bold;
 }
 .form ol{
 	list-style-type: none;
