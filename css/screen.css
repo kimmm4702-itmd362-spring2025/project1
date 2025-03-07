@@ -12,7 +12,7 @@ body{
 .page-title{
 	margin-top: 20px;
 	margin-bottom: 10px;
-	font-size: 2.5rem;
+	font-size: 2.5rem;/*40px*/
 	padding: 10px;
 	font-family: "Atma", system-ui;
   	font-weight: 400;
@@ -21,7 +21,7 @@ body{
 }
 .topic{
 	margin-bottom: 15px;
-	font-size: 2.25em;
+	font-size: 2.25em; /*36px*/
 	color: #7E6E13;
 }
 .author-info{
@@ -43,12 +43,12 @@ body{
 	margin-top: 10px;
 	margin-bottom: 10px;
 	color: darkred;
-	font-size: 1.5rem;
+	font-size: 1.5rem; /*24px*/
 	font-weight: bold;
 }
 .main p{
 	color: darkblue;
-	font-size: 1rem;
+	font-size: 1rem; /*16px*/
 	padding: 5px;
 	line-height: 1.5em;
 }
@@ -99,14 +99,14 @@ body{
 	color: red;
 	display: block;
 	font-weight: bold;
-	font-size: 1.25rem;
+	font-size: 1.25rem; /*20px*/
 	margin-bottom: 10px;
 }
 #email, #fname, #lname, #book{
 	width: 200px;
 	padding: 10px;
 	border-radius: 10px;
-	font-size: 1rem;
+	font-size: 1rem; /*16px*/
 	margin-top: 5px;
 }
 #submit{
@@ -117,7 +117,7 @@ body{
 	width: 250px;
 	padding: 10px;
 	border: none;
-	font-size: 1.125rem;
+	font-size: 1.125rem; /*18*/
 }
 #input-submit :hover{
 	background-color:#3D550C;
