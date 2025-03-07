@@ -10,7 +10,7 @@ jQuery(function($){
 		const email = $('#email').val();
 		const book = $('#book').val();
 
-		alert('Thank you, ${fname} $(lname)! You subscribed to read book "$(book)"');
+		alert(`Thank you, ${fname} ${lname}! You subscribed to read book "${book}"`);
 
 
 	});
