@@ -127,14 +127,18 @@ h1{
 	background-color:#3D550C;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px){
 	body{
-		font-size: 16px;
+		font-size: 18px;
+		padding: 20px;
+		background-color: blueviolet;
 	}
 }
 
-@media screen and (max-width:480px){
+@media screen and (min-width: 1024px){
 	body{
-		font-size: 14px;
+		font-size: 20px;
+		padding: 20px;
+		background-color: gray;
 	}
 }
