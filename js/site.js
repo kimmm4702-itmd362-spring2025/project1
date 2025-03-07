@@ -2,7 +2,7 @@ jQuery(function($){
 	$('html').removeClass('nojs');
 	$("html").addClass("hasjs");
 
-	$('#form').on('submit', function(event){
+	$('#signup-form').on('submit', function(event){
 		event.preventDefault(); 
 
 		const fname = $('#fname').val();
