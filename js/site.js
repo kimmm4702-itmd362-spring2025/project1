@@ -3,7 +3,7 @@ jQuery(function($){
 	$("html").addClass("hasjs");
 
 	$("form").on("submit", function(event){
-		event.preventDefault();
+		event.preventDefault(); // prevents form to refresh when submitted
 
 		let fname=$("#fname").val().trim()
 		let lname=$("#lname").val().trim()
