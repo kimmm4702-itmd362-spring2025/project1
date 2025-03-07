@@ -132,12 +132,11 @@ h1{
 	body{
 		font-size: 18px;
 		padding: 20px;
-	
+	}
 }
 
 @media screen and (min-width: 1024px){
 	body{
 		padding: 20px;
 	}
-	
 }
