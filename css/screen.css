@@ -130,9 +130,15 @@ h1{
 
 /* tablets */
 @media screen and (max-width: 768px){
+	body{
+		background-color: lightblue;
+	}
 	
 }
 /*phones*/
 @media screen and (max-width: 480px){
+	body{
+		background-color: white;
+	}
 	
 }
