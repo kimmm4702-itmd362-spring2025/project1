@@ -133,7 +133,19 @@ h1{
 	body{
 		background-color: lightblue;
 	}
-	
+	#email, #fname, #lname, #book{
+		width: 250px;
+	}
+	#submit{
+		width: 300px;
+	}
+	.form{
+		width: 90%;
+		padding: 30px;
+	}
+	.books img{
+		width: 150px;
+	}
 }
 /*phones*/
 @media screen and (max-width: 480px){
