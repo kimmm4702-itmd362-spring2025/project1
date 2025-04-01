@@ -130,9 +130,7 @@ h1{
 
 /* tablets */
 @media screen and (max-width: 768px){
-	body{
-		background-color: lightblue;
-	}
+
 	.main-section{
 		max-width: 85%;
 		padding: 25;
@@ -157,9 +155,7 @@ h1{
 }
 /*phones*/
 @media screen and (max-width: 480px){
-	body{
-		background-color: white;
-	}
+
 	.main-section{
 		max-width: 95%;
 		padding: 20px;
