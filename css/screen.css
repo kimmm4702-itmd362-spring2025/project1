@@ -133,6 +133,11 @@ h1{
 	body{
 		background-color: lightblue;
 	}
+	.main-section{
+		max-width: 90%;
+		padding: 30px;
+
+	}
 	#email, #fname, #lname, #book{
 		width: 250px;
 	}
@@ -152,5 +157,30 @@ h1{
 	body{
 		background-color: white;
 	}
-	
+	.main-section{
+		max-width: 95%;
+		padding: 20px;
+	}
+	.page-title{
+		font-size: 1.8rem;
+	}
+	.topic{
+		font-size: 2rem;
+	}
+	.books{
+		flex-direction: column; /*vertically*/
+		align-items: center;
+	}
+	.books img{
+		width: 120px;
+	}
+	#email, #fname, #lname, #book{
+		width: 100%;
+		max-width: 280px;
+	}
+	#submit{
+		width: 100%;
+		max-width: 280px;
+	}
+
 }
